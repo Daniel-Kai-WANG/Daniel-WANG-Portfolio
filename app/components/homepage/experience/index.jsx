@@ -34,7 +34,7 @@ function Experience() {
                 <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
                   <div className="relative p-3">
                     <Image
-                      src="/blur-23.svg"
+                      src="/image/blur-23.svg"
                       alt="Hero"
                       width={1080}
                       height={200}
