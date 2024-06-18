@@ -7,7 +7,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 
-const basePath = "/portfolio";
+const basePath = "/Daniel-WANG-Portfolio";
 
 function HeroSection() {
   return (
