@@ -1,6 +1,8 @@
 // @flow strict
 import Link from "next/link";
 
+const basePath = "/Daniel-WANG-Portfolio";
+
 function Navbar() {
   return (
     <nav className="bg-transparent">
