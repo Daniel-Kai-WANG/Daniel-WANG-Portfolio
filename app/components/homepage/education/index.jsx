@@ -7,7 +7,7 @@ import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 import lottieFile from "/public/lottie/study.json";
 
-const basePath = "/Daniel-Wang-Portfolio";
+const basePath = "/portfolio";
 
 function Education() {
   return (

@@ -7,7 +7,7 @@ import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 import experience from "/public/lottie/code.json";
 
-const basePath = "/Daniel-Wang-Portfolio";
+const basePath = "/portfolio";
 
 function Experience() {
   return (
