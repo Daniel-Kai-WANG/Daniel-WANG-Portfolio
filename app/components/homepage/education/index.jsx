@@ -7,6 +7,8 @@ import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 import lottieFile from "/public/lottie/study.json";
 
+const basePath = "/Daniel-Wang-Portfolio";
+
 function Education() {
   return (
     <div id="education" className="relative z-50 my-12 border-t border-[#25213b] lg:my-24">
@@ -39,7 +41,7 @@ function Education() {
                 <GlowCard key={education.id} identifier={`education-${education.id}`}>
                   <div className="relative p-3 text-white">
                     <Image
-                      src="/image/blur-23.svg"
+                      src={`${basePath}/image/blur-23.svg`}
                       alt="Hero"
                       width={1080}
                       height={200}

@@ -7,6 +7,8 @@ import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 import experience from "/public/lottie/code.json";
 
+const basePath = "/Daniel-Wang-Portfolio";
+
 function Experience() {
   return (
     <div id="experience" className="relative z-50 my-12 border-t border-[#25213b] lg:my-24">
@@ -34,7 +36,7 @@ function Experience() {
                 <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
                   <div className="relative p-3">
                     <Image
-                      src="/image/blur-23.svg"
+                      src={`${basePath}/image/blur-23.svg`}
                       alt="Hero"
                       width={1080}
                       height={200}
