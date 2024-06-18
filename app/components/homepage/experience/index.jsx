@@ -12,7 +12,7 @@ const basePath = "/Daniel-Wang-Portfolio";
 function Experience() {
   return (
     <div id="experience" className="relative z-50 my-12 border-t border-[#25213b] lg:my-24">
-      <Image src="/section.svg" alt="Hero" width={1572} height={795} className="absolute top-0 -z-10" />
+      <Image src={`${basePath}/section.svg`} alt="Hero" width={1572} height={795} className="absolute top-0 -z-10" />
 
       <div className="my-5 flex justify-center lg:py-8">
         <div className="flex items-center">
