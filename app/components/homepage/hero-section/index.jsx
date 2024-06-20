@@ -7,12 +7,10 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 
-const basePath = "/Daniel-WANG-Portfolio";
-
 function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
-      <Image src={`${basePath}/hero.svg`} alt="Hero" width={1572} height={795} className="absolute -top-[98px] -z-10" />
+      <Image src={"/hero.svg"} alt="Hero" width={1572} height={795} className="absolute -top-[98px] -z-10" />
 
       <div className="grid grid-cols-1 items-start gap-y-8 lg:grid-cols-2 lg:gap-12">
         <div className="order-2 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:order-1 lg:pt-10">
@@ -42,7 +40,7 @@ function HeroSection() {
 
           <div className="flex items-center gap-3">
             <Link
-              href='/#contact'
+              href="/#contact"
               className="rounded-full bg-gradient-to-r from-violet-600 to-pink-500 p-[1px] transition-all duration-300 hover:from-pink-500 hover:to-violet-600"
             >
               <button className="flex items-center gap-1 rounded-full border-none bg-[#0d1224] px-3 py-3 text-center text-xs font-medium uppercase tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out hover:gap-3 md:px-8 md:py-4 md:text-sm md:font-semibold">
