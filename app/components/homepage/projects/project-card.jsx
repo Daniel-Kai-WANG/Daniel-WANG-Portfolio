@@ -1,4 +1,4 @@
-// @flow strict
+"use client";
 
 import * as React from "react";
 
@@ -53,14 +53,14 @@ function ProjectCard({ project }) {
             <span className="text-cyan-400">{" " + project.description}</span>
             <span className="text-gray-400">,</span>
           </div>
-          <div className="ml-4 lg:ml-8 mr-2">
+          <div className="ml-4 mr-2 lg:ml-8">
             <span className="text-white">keyPoints: [</span>
-            <ul className="list-disc list-inside text-cyan-400">
-              {
-                project.keyPoints.map((point, i) => (
-                  <li key={i} className="text-[#53edb7] mb-2">{point}</li>
-                ))
-              }
+            <ul className="list-inside list-disc text-cyan-400">
+              {project.keyPoints.map((point, i) => (
+                <li key={i} className="mb-2 text-[#53edb7]">
+                  {point}
+                </li>
+              ))}
             </ul>
             <span className="text-white">]</span>
           </div>
