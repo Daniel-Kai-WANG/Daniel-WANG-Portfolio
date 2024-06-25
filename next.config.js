@@ -9,5 +9,5 @@ module.exports = {
   },
   output: "export",
   reactStrictMode: true,
-  basePath: "/Daniel-WANG-Portfolio",
+  // basePath: "/Daniel-WANG-Portfolio",
 };
