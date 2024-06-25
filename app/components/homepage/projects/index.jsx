@@ -5,7 +5,7 @@ import ProjectCard from "./project-card";
 
 const Projects = () => {
   return (
-    <div id="projects" className="relative z-50 my-12 lg:my-24">
+    <div id="#projects" className="relative z-50 my-12 lg:my-24">
       <div className="sticky top-10">
         <div className="absolute -top-3 left-0 h-[80px] w-[80px] translate-x-1/2 rounded-full bg-violet-100 opacity-30 blur-3xl filter"></div>
         <div className="relative flex items-center justify-start">

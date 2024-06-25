@@ -27,7 +27,7 @@ function Navbar() {
           <li>
             <Link
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
-              href="https://daniel-kai-wang.github.io/Daniel-WANG-Portfoli/#experience"
+              href="https://daniel-kai-wang.github.io/Daniel-WANG-Portfolio/#experience"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">EXPERIENCE</div>
             </Link>
@@ -35,7 +35,7 @@ function Navbar() {
           <li>
             <Link
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
-              href="https://daniel-kai-wang.github.io/Daniel-WANG-Portfoli/#skills"
+              href="https://daniel-kai-wang.github.io/Daniel-WANG-Portfolio/#skills"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">SKILLS</div>
             </Link>
@@ -43,7 +43,7 @@ function Navbar() {
           <li>
             <Link
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
-              href="https://daniel-kai-wang.github.io/Daniel-WANG-Portfoli/#education"
+              href="https://daniel-kai-wang.github.io/Daniel-WANG-Portfolio/#education"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">EDUCATION</div>
             </Link>
@@ -51,7 +51,7 @@ function Navbar() {
           <li>
             <Link
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
-              href="https://daniel-kai-wang.github.io/Daniel-WANG-Portfoli/#projects"
+              href="https://daniel-kai-wang.github.io/Daniel-WANG-Portfolio/#projects"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">PROJECTS</div>
             </Link>

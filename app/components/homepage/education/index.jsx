@@ -12,7 +12,7 @@ const basePath = "/Daniel-WANG-Portfolio";
 
 function Education() {
   return (
-    <div id="education" className="relative z-50 my-12 border-t border-[#25213b] lg:my-24">
+    <div id="#education" className="relative z-50 my-12 border-t border-[#25213b] lg:my-24">
       <Image src={`${basePath}/section.svg`} alt="Hero" width={1572} height={795} className="absolute top-0 -z-10" />
       <div className="flex -translate-y-[1px] justify-center">
         <div className="w-3/4">

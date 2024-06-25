@@ -10,7 +10,7 @@ import ContactWithoutCaptcha from "./contact-without-captcha";
 
 function ContactSection() {
   return (
-    <div id="contact" className="relative my-12 mt-24 text-white lg:my-16">
+    <div id="#contact" className="relative my-12 mt-24 text-white lg:my-16">
       <div className="absolute -right-8 top-24 hidden flex-col items-center lg:flex">
         <span className="w-fit rotate-90 rounded-md bg-[#1a1443] p-2 px-5 text-xl text-white">CONTACT</span>
         <span className="h-36 w-[2px] bg-[#1a1443]"></span>
