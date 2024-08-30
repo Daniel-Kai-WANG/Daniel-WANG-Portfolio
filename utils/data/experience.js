@@ -3,7 +3,7 @@ export const experiences = [
     id: 1,
     title: "IT Developer Intern",
     company: "Easy Skill - Brisbane, QLD",
-    duration: "(Apr 2024 - Present)",
+    duration: "(Apr 2024 - Jul 2024)",
   },
   {
     id: 2,
