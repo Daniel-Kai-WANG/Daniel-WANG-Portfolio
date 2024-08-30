@@ -1,5 +1,8 @@
 # Daniel Wang's Portfolio 🎨✨
 
+## Link 📎
+https://daniel-kai-wang.github.io/Daniel-WANG-Portfolio/
+
 ## Introduction 📜
 
 Hello everyone! I am Daniel Wang, a passionate front end / full stack developer. 👨‍💻✨
