@@ -1,16 +1,18 @@
-// "use client";
+"use client";
 
 import { experiences } from "@/utils/data/experience";
-import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 import experience from "/public/lottie/code.json";
 
 function Experience() {
+  const prefix =
+    process.env.NODE_ENV === "production" ? "/Daniel-WANG-Portfolio" : "";
+
   return (
     <div id="experience" className="relative z-50 my-12 border-t border-[#25213b] lg:my-24">
-      <Image src="/section.svg" alt="Hero" width={1572} height={795} className="absolute top-0 -z-10" />
+      <img src={`${prefix}/section.svg`} alt="Hero" width={1572} height={795} className="absolute top-0 -z-10" />
 
       <div className="my-5 flex justify-center lg:py-8">
         <div className="flex items-center">
@@ -33,8 +35,8 @@ function Experience() {
               {experiences.map((experience) => (
                 <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
                   <div className="relative p-3">
-                    <Image
-                      src="/blur-23.svg"
+                    <img
+                      src={`${prefix}/blur-23.svg`}
                       alt="Hero"
                       width={1080}
                       height={200}

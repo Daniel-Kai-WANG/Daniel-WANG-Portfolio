@@ -1,7 +1,6 @@
 // @flow strict
 
 import { personalData } from "@/utils/data/personal-data";
-import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdDownload } from "react-icons/md";
@@ -9,9 +8,12 @@ import { RiContactsFill } from "react-icons/ri";
 import { skillsData } from "@/utils/data/skills";
 
 function HeroSection() {
+  const prefix =
+    process.env.NODE_ENV === "production" ? "/Daniel-WANG-Portfolio" : "";
+
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
-      <Image src="/hero.svg" alt="Hero" width={1572} height={795} className="absolute -top-[98px] -z-10" />
+      <img src={`${prefix}/hero.svg`} alt="Hero" width={1572} height={795} className="absolute -top-[98px] -z-10" />
 
       <div className="grid grid-cols-1 items-start gap-y-8 lg:grid-cols-2 lg:gap-12">
         <div className="order-2 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:order-1 lg:pt-10">

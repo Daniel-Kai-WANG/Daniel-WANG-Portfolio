@@ -1,7 +1,4 @@
-// "use client";
-
-import Image from "next/image";
-
+"use client";
 import { educations } from "@/utils/data/educations";
 import { BsPersonWorkspace } from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
@@ -9,9 +6,12 @@ import GlowCard from "../../helper/glow-card";
 import lottieFile from "/public/lottie/study.json";
 
 function Education() {
+  const prefix =
+    process.env.NODE_ENV === "production" ? "/Daniel-WANG-Portfolio" : "";
+
   return (
     <div id="education" className="relative z-50 my-12 border-t border-[#25213b] lg:my-24">
-      <Image src="/section.svg" alt="Hero" width={1572} height={795} className="absolute top-0 -z-10" />
+      <img src={`${prefix}/section.svg`} alt="Hero" width={1572} height={795} className="absolute top-0 -z-10" />
       <div className="flex -translate-y-[1px] justify-center">
         <div className="w-3/4">
           <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent" />
@@ -39,8 +39,8 @@ function Education() {
               {educations.map((education) => (
                 <GlowCard key={education.id} identifier={`education-${education.id}`}>
                   <div className="relative p-3 text-white">
-                    <Image
-                      src="/blur-23.svg"
+                    <img
+                      src={`${prefix}/blur-23.svg`}
                       alt="Hero"
                       width={1080}
                       height={200}
