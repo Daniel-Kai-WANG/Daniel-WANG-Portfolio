@@ -6,13 +6,12 @@ import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-
-const basePath = "/Daniel-WANG-Portfolio";
+import { skillsData } from "@/utils/data/skills";
 
 function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
-      <Image src={`${basePath}/hero.svg`} alt="Hero" width={1572} height={795} className="absolute -top-[98px] -z-10" />
+      <Image src="/hero.svg" alt="Hero" width={1572} height={795} className="absolute -top-[98px] -z-10" />
 
       <div className="grid grid-cols-1 items-start gap-y-8 lg:grid-cols-2 lg:gap-12">
         <div className="order-2 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:order-1 lg:pt-10">
@@ -91,23 +90,16 @@ function HeroSection() {
               <div className="ml-4 mr-2 lg:ml-8">
                 <span className="text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">React</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">TypeScript</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NextJS</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NestJS</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">TailwindCSS</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MongoDB</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Docker</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS</span>
+
+                {Object.values(skillsData).flat().map((skill, index, arr) => (
+                  <span key={skill}>
+                    <span className="text-amber-300">{skill}</span>
+                    {index < arr.length - 1 && (
+                      <span className="text-gray-400">{"', '"}</span>
+                    )}
+                  </span>
+                ))}
+
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>

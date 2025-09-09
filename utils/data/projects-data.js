@@ -6,6 +6,57 @@ import travel from "/public/image/travel.jpg";
 export const projectsData = [
   {
     id: 1,
+    name: "My Rounds - Legacy System Modernization",
+    description:
+      "Modernized a 6-year-old legacy system, migrated mobile pages with high feature parity, relaunched the Admin portal, and implemented new features for client delivery.",
+    keyPoints: [
+      "Updated backend dependencies, successfully rebuilt and launched the backend system, and verified functionality by registering new accounts via Postman.",
+      "Rebuilt the mobile environment using the latest Expo framework, migrated 61 mobile pages, and achieved 95% feature parity with the legacy system.",
+      "Upgraded Admin portal dependencies, relaunched the system, and implemented new features based on client requirements, ensuring successful delivery of all requested functionalities.",
+    ],
+    tools: [
+      "React",
+      "Expo",
+      "Express.js",
+      "Apollo GraphQL",
+      "TypeScript",
+      "Postman",
+      "SCSS",
+      "GitLab"
+    ],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+    image: crefin,
+  },
+  {
+    id: 2,
+    name: "UGive - New Expo Project",
+    description: "Led New Expo Project Development, delivered all Phase 1 features on schedule, also contributed to backend development while successfully integrating Firebase push notifications.",
+    keyPoints: [
+      "Led mobile development with Expo, implementing rendering, interactions, and animations across both iOS and Android platforms to deliver a smooth and engaging user experience.",
+      "Integrated backend APIs to render data dynamically, working closely with backend developer to ensure smooth front-end and back-end communication.",
+      "Later extended responsibilities to backend development by creating models, implementing business logic, and building APIs to support mobile features.",
+      "Registered the project on Firebase and implemented Firebase Cloud Messaging (FCM) push notifications, completing setup, configuration, and in-app handling."
+    ],
+    tools: [
+      "Expo",
+      "TypeScript",
+      "Tailwind CSS",
+      "Laravel",
+      "Firebase",
+      "Postman",
+      "GitLab",
+      "Xcode",
+      "Android Studio"
+    ],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+    image: crefin,
+  },
+  {
+    id: 3,
     name: "Payroll System",
     description:
       "Fetching data from Boond Manager, displaying and generating payslips for expatriates’ consultants, responsible for setting up backend modular services and data processing.",
@@ -31,7 +82,7 @@ export const projectsData = [
     image: crefin,
   },
   {
-    id: 2,
+    id: 4,
     name: "AI Phone Service Website Dashboard and Message Pages (Collaborative Development)",
     description:
       "Dashboard page for displaying user data statistics, enhancing real-time feedback on customer interactions. Message page for displaying AI call records and details.",
@@ -57,7 +108,7 @@ export const projectsData = [
     image: travel,
   },
   {
-    id: 3,
+    id: 5,
     name: "Law Firm Website Development",
     description:
       "Displaying the company's PC and mobile websites, including the homepage, legal cases, legal knowledge, team introduction, and legal consultation services.",
@@ -80,7 +131,7 @@ export const projectsData = [
     image: realEstate,
   },
   {
-    id: 4,
+    id: 6,
     name: "E-commerce Website Development",
     description:
       "Includes both frontend and backend development. The backend is used to manage users, products, and orders, while the frontend is for product display, categorization, and ordering.",
@@ -105,7 +156,7 @@ export const projectsData = [
     image: ayla,
   },
   {
-    id: 5,
+    id: 7,
     name: "Vulnerable Persons Project (VPP) Online Database",
     description:
       "Developed a visualizable and searchable online database to retrieve data related to vulnerable persons in Queensland.",

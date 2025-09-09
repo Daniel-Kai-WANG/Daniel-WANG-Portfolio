@@ -1,26 +1,52 @@
-export const skillsData = [
-  "HTML",
-  "CSS",
-  "Javascript",
-  "Typescript",
-  "React",
-  "Vue",
-  "Next JS",
-  "Nest JS",
-  "Python",
-  "Tailwind",
-  "jQuery",
-  "MongoDB",
-  "MySQL",
-  "Git",
-  "AWS",
-  "Bootstrap",
-  "Docker",
-  "Figma",
-  "Firebase",
-  "MaterialUI",
-  "Nginx",
-];
+export const skillsData = 
+{
+  "Frontend": [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "Styled Components",
+    "Kendo React",
+    "Tailwind",
+    "Javascript",
+    "Typescript",
+    "React",
+    "React Native",
+    "Expo",
+    "Vue",
+    "Angular",
+    "WordPress",
+    "Next JS",
+    "jQuery",
+    "Bootstrap",
+    "MaterialUI",
+  ],
+  "Backend & APIs": [
+    "Nest JS",
+    "Laravel",
+    "Python",
+  ],
+  "Databases": [
+    "MongoDB",
+    "MySQL",
+  ],
+  "DevOps & Tools": [
+    "GitHub",
+    "GitLab",
+    "Docker",
+    "Postman",
+    "Jira",
+    "Xcode",
+    "AndroidStudio"
+  ],
+  "Cloud": [
+    "AWS",
+    "Firebase",
+  ],
+  "Design": [
+    "Figma",
+  ],
+};
+
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
 // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
