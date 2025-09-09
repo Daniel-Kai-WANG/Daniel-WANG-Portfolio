@@ -24,18 +24,15 @@ function Skills() {
         </div>
       </div>
 
-      {/* 分类块 */}
       <div className="space-y-10 lg:space-y-16">
         {Object.entries(skillsData).map(([category, skills]) => (
           <section key={category} className="my-6">
-            {/* 分类标题 */}
             <h2 className="mb-4 text-xl lg:text-2xl font-semibold text-white/90 tracking-wide">
               {category}
             </h2>
 
-            {/* 分类里的技能卡片（跑马灯） */}
             <div className="my-6 w-full">
-              <Marquee gradient={false} speed={80} pauseOnHover pauseOnClick play={category === "Frontend"} direction="left" >
+              <Marquee gradient={false} speed={80} pauseOnHover pauseOnClick play={category === "Frontend" || category === "DevOps & Tools"} direction="left" >
                 {skills.map((skill) => {
                   const logo = skillsImage(skill) ?? "/svg/skills/placeholder.svg";
                   return (
