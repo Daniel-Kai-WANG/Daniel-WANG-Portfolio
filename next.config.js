@@ -1,10 +1,9 @@
 const path = require("path");
 const isProd = process.env.NODE_ENV === 'production'
-const base = '/Daniel-WANG-Portfolio'
 
 module.exports = {
-  basePath: isProd ? base : '',
-  assetPrefix: isProd ? base : '',
+  basePath: isProd ? "/Daniel-WANG-Portfolio" : "",
+  assetPrefix: isProd ? "/Daniel-WANG-Portfolio/" : "",
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
