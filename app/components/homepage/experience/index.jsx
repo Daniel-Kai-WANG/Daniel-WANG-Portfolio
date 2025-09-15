@@ -1,5 +1,3 @@
-"use client";
-
 import { experiences } from "@/utils/data/experience";
 import { BsPersonWorkspace } from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
